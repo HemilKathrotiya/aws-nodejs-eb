@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'Hemil Kathrotiya Devops Project is running successfully'
+    title: 'Hemil Kathrotiya Devops Project is now running successfully'
     })
     res.status(200).end();
 })
